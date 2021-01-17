@@ -29,4 +29,31 @@ The winner of the election was:
   
 ## Challenge Overview
 
+We were asked to audit the results of the Colorado election to verify the election results. In order to verify the results, we were asked to calculate the following:
+
+  1. The voter turnout for each county
+  2. The percentage of votes from each county out of the total count
+  3. The county with the highest turnout
+  4. The total number of votes
+  5. Each candidate's total votes and percentages of votes
+  6. The winner of the election, winning vote count, and winning percentage of votes.
+
+We were provided with a CSV file and asked to create a Python scrip that would read through this document and calculate the above. Once the Python scrip calculated the above numbers, we were asked to have the Python scrip to also write those numbers into a text file.
+
 ## Challenge Summary
+
+Use your repository README to write your analysis of Deliverables 1 and 2. The analysis should contain the following:
+
+Overview of Election Audit: Explain the purpose of this election audit analysis.
+
+Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+
+How many votes were cast in this congressional election?
+Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+Which county had the largest number of votes?
+Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. 
+
+Give at least two examples of how this script can be modified to be used for other elections.
+The script is very versitile. 
