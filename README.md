@@ -32,11 +32,11 @@ The winner of the election was:
 We were asked to audit the results of the Colorado election to verify the election results. In order to verify the results, we were asked to calculate the following:
 
   1. The voter turnout for each county
-  2. The percentage of votes from each county out of the total count
-  3. The county with the highest turnout
-  4. The total number of votes
-  5. Each candidate's total votes and percentages of votes
-  6. The winner of the election, winning vote count, and winning percentage of votes.
+  1. The percentage of votes from each county out of the total count
+  1. The county with the highest turnout
+  1. The total number of votes
+  1. Each candidate's total votes and percentages of votes
+  1. The winner of the election, winning vote count, and winning percentage of votes.
 
 We were provided with a CSV file and asked to create a Python scrip that would read through this document and calculate the above. Once the Python scrip calculated the above numbers, we were asked to have the Python scrip to also write those numbers into a text file.
 
@@ -64,20 +64,13 @@ Overview of Election Audit: Explain the purpose of this election audit analysis.
   5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
     -Diane DeGette won the election with 272,892 votes, which translated to 73.8% of the total votes.
     
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. 
+# Election-Audit Summary:
 
+The script is very versitile. It could be used for congressional elections in other districts quite easily.
 
-
-# How easy would it be to repurpose this script?
-
-The script is very versitile. 
-
-Example 1 of 2
 If you had another csv election file from another state with a similar structure it would be as easy changing the numeric values in "candidate_name" and "county_name" assignment statements in order to correctly identify the position of these values. See a screenshot of these assignment statements below:
 
 ![alt text](https://github.com/Anthony-Hendrickson/Election_Analysis/blob/main/Resources/Targeting_county_and_candidate_values_in_csv.PNG)
-
-Example 2 of 2
 
 If the structure of the CSV was identical you wouldn't need to change the script at all. 
 
