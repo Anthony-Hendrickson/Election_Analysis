@@ -74,3 +74,12 @@ If you had another csv election file from another state with a similar structure
 
 If the structure of the CSV was identical you wouldn't need to change the script at all. 
 
+This script could also be repurposed for national elections. Renaming some of the lists and variables within the scrip as well as some of the printed statements could make this count results by state instead of by county. You may also need to follow the change in the numeric values within assignment statements pointed out above. Renaming the variables in some of the assignment statements/lists would make the script legible. See below for an example where "county_name" and "county_votes" would become "state_name" and "state_votes":
+
+![alt text](https://github.com/Anthony-Hendrickson/Election_Analysis/blob/main/Resources/county_to_state_repurpose.PNG)
+
+Most importantly, you would need to change the text in the print statements would achieve the same output for states as opposed to counties. See the screenshot below which produces the "Largest County" print statement now. It would be as simple as changing the text values in the f-string from "Largest county turnout:" to "Largest state turnout." See this statement in its current form below:
+
+![alt text](https://github.com/Anthony-Hendrickson/Election_Analysis/blob/main/Resources/county_to_state_repurpose_outputs.PNG)
+
+As we can see, this script is very versitile and could be very useful for election auditing purposes beyond the congressional elections we are measuring now.
