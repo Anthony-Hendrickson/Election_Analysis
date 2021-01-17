@@ -68,7 +68,7 @@ Overview of Election Audit: Explain the purpose of this election audit analysis.
 
 The script is very versitile. It could be used for congressional elections in other districts quite easily.
 
-If you had another csv election file from another state with a similar structure it would be as easy changing the numeric values in "candidate_name" and "county_name" assignment statements in order to correctly identify the position of these values. See a screenshot of these assignment statements below:
+If you had another csv election file from another state with a similar structure it would be as easy changing the numeric values in "candidate_name" and "county_name" assignment statements in order to correctly identify the position of the column that contains the relevant values. See a screenshot of these assignment statements below:
 
 ![alt text](https://github.com/Anthony-Hendrickson/Election_Analysis/blob/main/Resources/Targeting_county_and_candidate_values_in_csv.PNG)
 
