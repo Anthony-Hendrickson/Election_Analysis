@@ -42,18 +42,42 @@ We were provided with a CSV file and asked to create a Python scrip that would r
 
 ## Challenge Summary
 
-Use your repository README to write your analysis of Deliverables 1 and 2. The analysis should contain the following:
-
 Overview of Election Audit: Explain the purpose of this election audit analysis.
 
-Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+# Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
-How many votes were cast in this congressional election?
-Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-Which county had the largest number of votes?
-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+  1. How many votes were cast in this congressional election? 
+    -369,711 votes were cast in this congressional election.
+
+  2. Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+
+![alt text](https://github.com/Anthony-Hendrickson/Election_Analysis/blob/main/Resources/Votes_and_percentages_by_county.PNG)
+
+  3. Which county had the largest number of votes?
+    -Denver county had the largest number of votes with a total of 306,055
+
+
+  4. Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+
+![alt text](https://github.com/Anthony-Hendrickson/Election_Analysis/blob/main/Resources/Votes_and_percentages_by_candidate.PNG)
+
+  5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+    -Diane DeGette won the election with 272,892 votes, which translated to 73.8% of the total votes.
+    
 Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. 
 
-Give at least two examples of how this script can be modified to be used for other elections.
+
+
+# How easy would it be to repurpose this script?
+
 The script is very versitile. 
+
+Example 1 of 2
+If you had another csv election file from another state with a similar structure it would be as easy changing the numeric values in "candidate_name" and "county_name" assignment statements in order to correctly identify the position of these values. See a screenshot of these assignment statements below:
+
+![alt text](https://github.com/Anthony-Hendrickson/Election_Analysis/blob/main/Resources/Targeting_county_and_candidate_values_in_csv.PNG)
+
+Example 2 of 2
+
+If the structure of the CSV was identical you wouldn't need to change the script at all. 
+
