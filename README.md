@@ -47,14 +47,14 @@ Overview of Election Audit: Explain the purpose of this election audit analysis.
 # Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
   1. How many votes were cast in this congressional election? 
-    -369,711 votes were cast in this congressional election.
+    * 369,711 votes were cast in this congressional election.
 
   2. Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 
 ![alt text](https://github.com/Anthony-Hendrickson/Election_Analysis/blob/main/Resources/Votes_and_percentages_by_county.PNG)
 
   3. Which county had the largest number of votes?
-    -Denver county had the largest number of votes with a total of 306,055
+    * Denver county had the largest number of votes with a total of 306,055
 
 
   4. Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
@@ -62,7 +62,7 @@ Overview of Election Audit: Explain the purpose of this election audit analysis.
 ![alt text](https://github.com/Anthony-Hendrickson/Election_Analysis/blob/main/Resources/Votes_and_percentages_by_candidate.PNG)
 
   5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-    -Diane DeGette won the election with 272,892 votes, which translated to 73.8% of the total votes.
+    * Diane DeGette won the election with 272,892 votes, which translated to 73.8% of the total votes.
     
 # Election-Audit Summary:
 
